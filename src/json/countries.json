@@ -1,0 +1,282 @@
+[
+    {
+        "name": "Andorra",
+        "value": "AD/AD100"
+    },
+    {
+        "name": "Argentina",
+        "value": "AR/1601"
+    },
+    {
+        "name": "American Samoa",
+        "value": "AS/96799"
+    },
+    {
+        "name": "Austria",
+        "value": "AT/1010"
+    },
+    {
+        "name": "Australia",
+        "value": "AU/0200"
+    },
+    {
+        "name": "Bangladesh",
+        "value": "BD/1000"
+    },
+    {
+        "name": "Belgium",
+        "value": "BE/1000"
+    },
+    {
+        "name": "Bulgaria",
+        "value": "BG/1000"
+    },
+    {
+        "name": "Brazil",
+        "value": "BR/01000-000"
+    },
+    {
+        "name": "Canada",
+        "value": "CA/A0A"
+    },
+    {
+        "name": "Switzerland",
+        "value": "CH/1000"
+    },
+    {
+        "name": "Czech Republic",
+        "value": "CZ/100 00"
+    },
+    {
+        "name": "Germany",
+        "value": "DE/01067"
+    },
+    {
+        "name": "Denmark",
+        "value": "DK/0800"
+    },
+    {
+        "name": "Dominican Republic",
+        "value": "DO/10101"
+    },
+    {
+        "name": "Spain",
+        "value": "ES/01001"
+    },
+    {
+        "name": "Finland",
+        "value": "FI/00002"
+    },
+    {
+        "name": "Faroe Islands",
+        "value": "FO/100"
+    },
+    {
+        "name": "France",
+        "value": "FR/01000"
+    },
+    {
+        "name": "Great Britain",
+        "value": "GB/AB1"
+    },
+    {
+        "name": "French Guyana",
+        "value": "GF/97300"
+    },
+    {
+        "name": "Guernsey",
+        "value": "GG/GY1"
+    },
+    {
+        "name": "Greenland",
+        "value": "GL/2412"
+    },
+    {
+        "name": "Guadeloupe",
+        "value": "GP/97100"
+    },
+    {
+        "name": "Guatemala",
+        "value": "GT/01001"
+    },
+    {
+        "name": "Guam",
+        "value": "GU/96910"
+    },
+    {
+        "name": "Guyana",
+        "value": "GY/97312"
+    },
+    {
+        "name": "Croatia",
+        "value": "HR/10000"
+    },
+    {
+        "name": "Hungary",
+        "value": "HU/1011"
+    },
+    {
+        "name": "Isle of Man",
+        "value": "IM/IM1"
+    },
+    {
+        "name": "India",
+        "value": "IN/110001"
+    },
+    {
+        "name": "Iceland",
+        "value": "IS/101"
+    },
+    {
+        "name": "Italy",
+        "value": "IT/00010"
+    },
+    {
+        "name": "Jersey",
+        "value": "JE/JE1"
+    },
+    {
+        "name": "Japan",
+        "value": "JP/100-0001"
+    },
+    {
+        "name": "Liechtenstein",
+        "value": "LI/9485"
+    },
+    {
+        "name": "Sri Lanka",
+        "value": "LK/*"
+    },
+    {
+        "name": "Lithuania",
+        "value": "LT/00001"
+    },
+    {
+        "name": "Luxembourg",
+        "value": "LU/L-1009"
+    },
+    {
+        "name": "Monaco",
+        "value": "MC/98000"
+    },
+    {
+        "name": "Moldavia",
+        "value": "MD/MD-2000"
+    },
+    {
+        "name": "Marshall Islands",
+        "value": "MH/96960"
+    },
+    {
+        "name": "Macedonia",
+        "value": "MK/1000"
+    },
+    {
+        "name": "Northern Mariana Islands",
+        "value": "MP/96950"
+    },
+    {
+        "name": "Martinique",
+        "value": "MQ/97200"
+    },
+    {
+        "name": "Mexico",
+        "value": "MX/01000"
+    },
+    {
+        "name": "Malaysia",
+        "value": "MY/01000"
+    },
+    {
+        "name": "Holland",
+        "value": "NL/1000"
+    },
+    {
+        "name": "Norway",
+        "value": "NO/0001"
+    },
+    {
+        "name": "New Zealand",
+        "value": "NZ/0110"
+    },
+    {
+        "name": "Phillippines",
+        "value": "PH/0400"
+    },
+    {
+        "name": "Pakistan",
+        "value": "PK/10010"
+    },
+    {
+        "name": "Poland",
+        "value": "PL/00-001"
+    },
+    {
+        "name": "Saint Pierre and Miquelon",
+        "value": "PM/97500"
+    },
+    {
+        "name": "Puerto Rico",
+        "value": "PR/00601"
+    },
+    {
+        "name": "Portugal",
+        "value": "PT/1000-001"
+    },
+    {
+        "name": "French Reunion",
+        "value": "RE/97400"
+    },
+    {
+        "name": "Russia",
+        "value": "RU/101000"
+    },
+    {
+        "name": "Sweden",
+        "value": "SE/10005"
+    },
+    {
+        "name": "Slovenia",
+        "value": "SI/1000"
+    },
+    {
+        "name": "Svalbard & Jan Mayen Islands",
+        "value": "SJ/8099"
+    },
+    {
+        "name": "Slovak Republic",
+        "value": "SK/010 01"
+    },
+    {
+        "name": "San Marino",
+        "value": "SM/47890"
+    },
+    {
+        "name": "Thailand",
+        "value": "TH/10100"
+    },
+    {
+        "name": "Turkey",
+        "value": "TR/01000"
+    },
+    {
+        "name": "United States",
+        "value": "US/00210"
+    },
+    {
+        "name": "Vatican",
+        "value": "VA/00120"
+    },
+    {
+        "name": "Virgin Islands",
+        "value": "VI/00801"
+    },
+    {
+        "name": "Mayotte",
+        "value": "YT/97600"
+    },
+    {
+        "name": "South Africa",
+        "value": "ZA/0002"
+    }
+]
