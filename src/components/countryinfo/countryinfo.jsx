@@ -1,4 +1,5 @@
 import React from "react";
+import world from "../../pictures/earth.png";
 
 function CountryInfo(props) {
   const { data } = props;
@@ -7,10 +8,8 @@ function CountryInfo(props) {
     <>
       {data ? (
         <div className="P d-flex flex-column bg-secondary p-5 text-light">
-          <div>{data.country ? `Country Name: ${data.country}` : ""}</div>
-          <div>
-            {data["post code"] ? `POST CODE: ${data["post code"]}` : ""}
-          </div>
+          <div>{data.country && `Country Name: ${data.country}`}</div>
+          <div>{data["post code"] && `POST CODE: ${data["post code"]}`}</div>
           <div>
             {data["country abbreviation"]
               ? `COUNTRY ABBREVIATION: ${data["country abbreviation"]}`
@@ -41,7 +40,7 @@ function CountryInfo(props) {
           </div>
         </div>
       ) : (
-        ""
+        <img src={world} alt="" style={{ height: "50%" }} />
       )}
     </>
   );

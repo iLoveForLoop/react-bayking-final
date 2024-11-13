@@ -4,29 +4,30 @@ import Dropdown from "./components/dropdown/dropdown";
 import CountryInfo from "./components/countryinfo/countryinfo";
 import countries from "./json/countries.json";
 import { useState } from "react";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
-  //style
   const style = {
     height: "100vh",
   };
 
-  //link
   const URL = "https://api.zippopotam.us";
 
-  //changes
   const onChange = (e) => {
     const value = e.target.value;
-    const link = `${URL}/${value}`;
-    console.log(link);
-    load(link);
+
+    if (value == "") {
+      setData(null);
+    } else {
+      const link = `${URL}/${value}`;
+      console.log(link);
+      load(link);
+    }
   };
 
-  //datas
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  // fetch data
   const load = (link) => {
     setLoading(true);
     axios
@@ -43,13 +44,19 @@ function App() {
 
   return (
     <>
-      <div className="bg-dark" style={style}>
+      <div className="bg-light" style={style}>
+        <Navbar />
         <div
           className="container pt-5 bg-light d-flex flex-column justify-content-start align-items-center"
           style={style}
         >
           <div className="d-flex flex-column justify-content-center align-items-center">
-            <h1 className="text-dark">Hello World</h1>
+            <h1
+              className="text-dark anton header-text"
+              style={{ fontSize: "6em" }}
+            >
+              Hello World
+            </h1>
             <Dropdown
               id="countries"
               label="country"
