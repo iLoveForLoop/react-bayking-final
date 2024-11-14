@@ -16,3 +16,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.jomhuria {
+  font-family: "Jomhuria", serif;
+  font-weight: 400;
+  font-style: normal;
+}
