@@ -6,7 +6,7 @@ function Dropdown(props) {
     <div className={props.containerClass}>
       <Form.Select
         id="select"
-        className="text-capitalize rounded-pill bg-dark text-light"
+        className="text-capitalize rounded-pill bg-dark text-light shadow"
         size="lg"
         onChange={props.onSelectChange}
       >

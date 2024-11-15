@@ -60,71 +60,53 @@ function App() {
           </div>
 
           {loading ? (
-            <div className="w-50 mt-3 d-flex flex-column gap-2">
-              <p class="placeholder-glow w-100 m-0">
+            <div className="w-50 mt-3 d-flex flex-column gap-1">
+              <p className="placeholder-glow w-100 m-0">
                 <span
-                  class="placeholder col-12"
+                  className="placeholder col-12"
+                  style={{ height: "8vh" }}
+                ></span>
+              </p>
+              <p className="placeholder-glow w-100 m-0">
+                <span
+                  className="placeholder col-12"
                   style={{ height: "6vh" }}
                 ></span>
               </p>
-              <p class="placeholder-glow w-100 m-0">
+              <p className="placeholder-glow w-100 m-0">
                 <span
-                  class="placeholder col-12"
-                  style={{ height: "3vh" }}
+                  className="placeholder col-12"
+                  style={{ height: "6vh" }}
                 ></span>
               </p>
-              <p class="placeholder-glow w-100 m-0">
+              <p className="placeholder-glow w-100 m-0">
                 <span
-                  class="placeholder col-12"
-                  style={{ height: "3vh" }}
+                  className="placeholder col-12"
+                  style={{ height: "6vh" }}
                 ></span>
               </p>
-              <p class="placeholder-glow w-100 m-0">
+              <p className="placeholder-glow w-100 m-0">
                 <span
-                  class="placeholder col-12"
-                  style={{ height: "3vh" }}
+                  className="placeholder col-12"
+                  style={{ height: "6vh" }}
                 ></span>
               </p>
-              <p class="placeholder-glow w-100 m-0">
+              <p className="placeholder-glow w-100 m-0">
                 <span
-                  class="placeholder col-12"
-                  style={{ height: "3vh" }}
+                  className="placeholder col-12"
+                  style={{ height: "6vh" }}
                 ></span>
               </p>
-              <p class="placeholder-glow w-100 m-0">
+              <p className="placeholder-glow w-100 m-0">
                 <span
-                  class="placeholder col-12"
-                  style={{ height: "3vh" }}
+                  className="placeholder col-12"
+                  style={{ height: "6vh" }}
                 ></span>
               </p>
-              <p class="placeholder-glow w-100 m-0">
+              <p className="placeholder-glow w-100 m-0">
                 <span
-                  class="placeholder col-12"
-                  style={{ height: "3vh" }}
-                ></span>
-              </p>
-              <p class="placeholder-glow w-100 m-0">
-                <span
-                  class="placeholder col-12"
-                  style={{ height: "3vh" }}
-                ></span>
-              </p>
-              <p class="placeholder-glow w-100 m-0">
-                <span
-                  class="placeholder col-12"
-                  style={{ height: "3vh" }}
-                ></span>
-              </p>
-              <p class="placeholder-glow w-100 m-0">
-                <span
-                  class="placeholder col-12"
-                  style={{ height: "3vh" }}
-                ></span>
-              </p>
-              <p class="placeholder-glow w-100 m-0">
-                <span
-                  class="placeholder col-12"
-                  style={{ height: "3vh" }}
+                  className="placeholder col-12"
+                  style={{ height: "6vh" }}
                 ></span>
               </p>
             </div>

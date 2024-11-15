@@ -22,3 +22,15 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.weight{
+  font-weight: 550;
+}
+
+.bg-alice{
+  background-color: aliceblue;
+}
+
+.fit-content{
+  display: inline-block;
+}
