@@ -35,21 +35,21 @@ function CountryInfo(props) {
       {data ? (
         <div className="bg-light p-2 text-dark poppins fs-3  text-capitalize">
           {data.country && (
-            <h1 className="m-0 mb-3 text-center " style={{ fontSize: "2em" }}>
+            <h1 className="m-0 mb-3 text-center " style={{ fontSize: "1.1em" }}>
               {data.country}{" "}
               {flag ? (
                 <img
                   className="p-0 m-0 shadow-lg"
                   src={flag}
                   alt={`${data.country} flag`}
-                  width="100"
+                  width="85"
                 />
               ) : (
                 <>
                   <p className="placeholder-glow w-100 m-0">
                     <span
-                      className="placeholder col-12"
-                      style={{ height: "8vh" }}
+                      className="placeholder col-12 w-50"
+                      style={{ height: "7vh" }}
                     ></span>
                   </p>
                 </>
@@ -61,7 +61,8 @@ function CountryInfo(props) {
             bordered
             hover
             size="sm"
-            className="text-start fs-3 shadow-lg"
+            className="text-start shadow-lg"
+            style={{ fontSize: ".6em" }}
           >
             <tbody>
               {data["country abbreviation"] && (
@@ -110,7 +111,7 @@ function CountryInfo(props) {
           </Table>
         </div>
       ) : (
-        <img className="mt-4" src={world} alt="" style={{ height: "25em" }} />
+        <img className="mt-4" src={world} alt="" style={{ height: "18em" }} />
       )}
     </>
   );
