@@ -14,12 +14,12 @@ function Navbar() {
         <div className="d-flex justify-content-center align-items-center">
           <ul className="p-0 m-0 d-flex gap-4 list-unstyled text-light fs-5 poppins ">
             <li>
-              <Link className="text-decoration-none text-light" to="/">
+              <Link className="text-decoration-none text-light bar" to="/">
                 Home
               </Link>
             </li>
             <li>
-              <Link className="text-decoration-none text-light" to="/about">
+              <Link className="text-decoration-none text-light bar" to="/about">
                 About
               </Link>
             </li>

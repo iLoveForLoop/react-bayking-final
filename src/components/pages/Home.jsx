@@ -44,7 +44,7 @@ export default function Home() {
           <div className="d-flex flex-column justify-content-center align-items-center">
             <h1
               className="text-dark anton header-text"
-              style={{ fontSize: "4`em" }}
+              style={{ fontSize: "3.8em" }}
             >
               Hello World
             </h1>
